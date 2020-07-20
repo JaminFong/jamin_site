@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2020-07-19</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://jaminfong.xyz/</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/.</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/bib/fang2020fna%2B%2B.txt</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/bib/fang2019eat.txt</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/bib/fang2020densely.txt</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/bib/fang2020fast.txt</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jaminfong.xyz/bib/yan2018deep.txt</loc>
+  <lastmod>2020-07-20T02:18:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
