@@ -1,0 +1,6 @@
+@article{qin2020resizemix,
+    title={ResizeMix: Mixing Data with Preserved Object Information and True Labels}, 
+    author={Qin, Jie and Fang, Jiemin and Zhang, Qian and Liu, Wenyu and Wang, Xingang and Wang, Xinggang},
+    journal={arXiv:2012.11101},
+    year={2020}
+}

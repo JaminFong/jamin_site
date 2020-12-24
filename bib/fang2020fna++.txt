@@ -1,6 +1,7 @@
 @article{fang2020fna++,
-  title={FNA++: Fast Network Adaptation via Parameter Remapping and Architecture Search},
+  title={FNA++: Fast Network Adaptation via Parameter Remapping and Architecture Search}, 
   author={Fang, Jiemin and Sun, Yuzhu and Zhang, Qian and Peng, Kangjian and Li, Yuan and Liu, Wenyu and Wang, Xinggang},
-  journal={arXiv preprint arXiv:2006.12986},
-  year={2020}
+  journal={TPAMI}, 
+  year={2020},
+  doi={10.1109/TPAMI.2020.3044416}
 }
