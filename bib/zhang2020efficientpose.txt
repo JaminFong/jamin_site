@@ -1,6 +1,6 @@
 @article{zhang2020efficientpose,
   title={EfficientPose: Efficient Human Pose Estimation with Neural Architecture Search},
   author={Zhang, Wenqiang and Fang, Jiemin and Wang, Xinggang and Liu, Wenyu},
-  journal={arXiv preprint arXiv:2012.07086},
+  journal={arXiv:2012.07086},
   year={2020}
 }
