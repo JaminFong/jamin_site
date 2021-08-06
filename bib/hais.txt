@@ -1,0 +1,6 @@
+@inproceedings{chen2021hierarchical,
+  title={Hierarchical Aggregation for 3D Instance Segmentation},
+  author={Shaoyu Chen and Jiemin Fang and Qian Zhang and Wenyu Liu and Xinggang Wang},
+  booktitle={ICCV},
+  year={2021}
+}
