@@ -1,0 +1,6 @@
+@inproceedings{YOLOS,
+  title={You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection},
+  author={Fang, Yuxin and Liao, Bencheng and Wang, Xinggang and Fang, Jiemin and Qi, Jiyang and Wu, Rui and Niu, Jianwei and Liu, Wenyu},
+  booktitle={NeurIPS},
+  year={2021}
+}
