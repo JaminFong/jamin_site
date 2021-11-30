@@ -11,9 +11,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <base href="/"> -->
-
-        <!--FACEBOOK-->
     <meta property="og:image" content="">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="682">
@@ -22,17 +19,6 @@
     <meta property="og:url" content="https://jaminfong.cn/neusample"/>
     <meta property="og:title" content="NeuSample" />
     <meta property="og:description" content="Project page for NeuSample: Neural Sample Field for Efficient View Synthesis." />
-
-        <!--TWITTER-->
-    <!-- <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="mip-NeRF" />
-    <meta name="twitter:description" content="Project page for Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields." />
-    <meta name="twitter:image" content="https://jonbarron.info/mipnerf/img/rays_square.png" /> -->
-
-
-<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
-  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
-    <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -75,8 +61,8 @@
                     </li>
                     <li>
                         <a href="https://xinggangw.info/">
-                            Xinggang Wang✉
-                        </a>
+                            Xinggang Wang
+                        </a><sup>✉</sup>
                         </br>HUST
                     </li><br>
                     <li>
@@ -111,14 +97,8 @@
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="https://youtu.be/EpH175PY1A0">
-                            <image src="img/youtube_icon.png" height="60px">
-                                <h4><strong>Video</strong></h4>
-                            </a>
-                        </li> -->
                         <li>
-                            <a href="">
+                            <a href="https://github.com/hustvl/NeuSample">
                             <image src="img/github.png" height="60px">
                                 <h4><strong>Code</strong></h4>
                             </a>
@@ -134,9 +114,11 @@
                 <h3>
                     Abstract
                 </h3>
-                <image src="img/method_comp.jpg" class="img-responsive" alt="overview"><br>
+                <p align="center">
+                    <image width="70%" src="img/method_comp.png" class="img-responsive" alt="overview">
+                </p>
                 <p class="text-justify">
-            Neural radiance fields (NeRF) have shown great potentials in representing 3D scenes and synthesizing novel views, but the computational overhead of NeRF at the inference stage is still heavy. To alleviate the burden, we delve into the coarse-to-fine, hierarchical sampling procedure of NeRF and point out that the coarse stage can be replaced by a lightweight module which we name a neural sample field. The proposed sample field maps rays into sample distributions, which can be transformed into point coordinates and fed into radiance fields for volume rendering. The overall framework is named as NeuSample. We perform experiments on Realistic Synthetic 360° and Real Forward-Facing, two popular 3D scene sets, and show that NeuSample achieves better rendering quality than NeRF while enjoying a faster inference speed. NeuSample is further compressed with a proposed sample field extraction method towards a better trade-off between quality and speed.
+                Neural radiance fields (NeRF) have shown great potentials in representing 3D scenes and synthesizing novel views, but the computational overhead of NeRF at the inference stage is still heavy. To alleviate the burden, we delve into the coarse-to-fine, hierarchical sampling procedure of NeRF and point out that the coarse stage can be replaced by a lightweight module which we name a neural sample field. The proposed sample field maps rays into sample distributions, which can be transformed into point coordinates and fed into radiance fields for volume rendering. The overall framework is named as NeuSample. We perform experiments on Realistic Synthetic 360° and Real Forward-Facing, two popular 3D scene sets, and show that NeuSample achieves better rendering quality than NeRF while enjoying a faster inference speed. NeuSample is further compressed with a proposed sample field extraction method towards a better trade-off between quality and speed.
                 </p>
             </div>
         </div>
@@ -177,7 +159,7 @@
                 <h3>
                     Integrating Sample Fields with Radiance Fields
                 </h3>
-                <image src="img/framework.jpg" class="img-responsive"><br>
+                <image src="img/framework.png" class="img-responsive"><br>
                 <p class="text-justify">
                 To render a pixel in the image, the ray passing through the pixel is first fed into a sample field network, which is mapped to a distribution along the ray. The distribution is then transformed to 3D-point coordinates, which are fed into the radiance field to obtain colors and densities. Finally, volume rendering is performed on these points.
                 </p>
@@ -189,8 +171,8 @@
                 <h3>
                     Sample Field Extraction
                 </h3>
-                <p style="text-align:center;">
-                    <image src="img/extraction.jpg" class="img-responsive">
+                <p align="center">
+                    <image src="img/extraction.png" class="img-responsive" width="80%">
                 </p>
                 <p class="text-justify">
                 Besides saving computation cost from coarse fields, we extract the learned sample field to produce fewer samples for further acceleration. A depth boost method is proposed for initializing an extracted field. The output mean value of the extracted field is forced to fit the depth predicted by a learned regular field.
@@ -225,7 +207,7 @@
                 <p class="text-justify">
                     Under different acceleration settings, NeuSample shows a much better speed-quality trade-off.
                 </p>
-                <image src="img/trade-off.jpg" class="img-responsive"><br>
+                <image src="img/trade-off.png" class="img-responsive"><br>
             </div>
         </div>
 
