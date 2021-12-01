@@ -1,0 +1,6 @@
+@article{fang2021neusample,
+    title={NeuSample: Neural Sample Field for Efficient View Synthesis},
+    author={Jiemin Fang and Lingxi Xie and Xinggang Wang and Xiaopeng Zhang and Wenyu Liu and Qi Tian},
+    journal={arXiv:2111.15552},
+    year={2021}
+}
