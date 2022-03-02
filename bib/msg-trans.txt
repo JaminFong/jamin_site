@@ -1,6 +1,6 @@
-@article{fang2021msgtransformer,
+@inproceedings{fang2021msg,
   title={MSG-Transformer: Exchanging Local Spatial Information by Manipulating Messenger Tokens},
   author={Jiemin Fang and Lingxi Xie and Xinggang Wang and Xiaopeng Zhang and Wenyu Liu and Qi Tian},
-  journal={arXiv:2105.15168},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
 }
