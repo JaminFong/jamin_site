@@ -1,0 +1,6 @@
+@article{tineuvox,
+    title={Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
+    author={Jiemin Fang and Taoran Yi and Xinggang Wang and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Matthias Nie{\ss}ner and Qi Tian},
+    journal={arxiv:2205.15285},
+    year={2022}
+}
