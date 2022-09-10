@@ -1,14 +1,361 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="TiNeuVox: Fast Dynamic Radiance Fields with Time-Aware Neural Voxels.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiNeuVox: Fast Dynamic Radiance Fields with</br>Time-Aware Neural Voxels</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="../img/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
 <body>
 
-<p align="center">
-  Paper: <a href="https://arxiv.org/abs/2205.15285">https://arxiv.org/abs/2205.15285</a></br>
-  Video: <a href="https://youtu.be/sROLfK_VkCk">https://youtu.be/sROLfK_VkCk</a></br>
-  Code: <a href="https://github.com/hustvl/TiNeuVox">https://github.com/hustvl/TiNeuVox</a></br>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">TiNeuVox:</br>
+            Fast Dynamic Radiance Fields with</br>Time-Aware Neural Voxels</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://jaminfong.cn/">Jiemin Fang</a><sup>1,2*</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/taoranyi">Taoran Yi</a><sup>2*</sup>,</span>
+            <span class="author-block">
+              <a href="https://xinggangw.info/">Xinggang Wang</a><sup>2✉</sup>,</span>
+            <span class="author-block">
+              <a href="http://lingxixie.com/">Lingxi Xie</a><sup>3</sup>,</span></br>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/zxphistory/">Xiaopeng Zhang</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="http://eic.hust.edu.cn/professor/liuwenyu/">Wenyu Liu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Matthias Nießner</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ">Qi Tian</a><sup>3</sup></span>
+          </div>
 
-  Page is coming soon!
-</p>
-	
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Institute of AI, HUST</span>
+            <span class="author-block"><sup>2</sup>School of EIC, HUST</span>
+            <span class="author-block"><sup>3</sup>Huawei Inc.</span>
+            <span class="author-block"><sup>4</sup>TUM</span>
+          </div>
+
+          * <i>denotes equal contributions.</i>  </br>
+          Conditionally Accepted to ACM SIGGRAPH Asia 2022
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2205.15285"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/sROLfK_VkCk"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/hustvl/TiNeuVox"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <p align="center">
+          <image width="100%" src="img/overview.jpg" class="img-responsive" alt="overview">
+        </p>
+        <div class="content has-text-justified">
+        We propose a radiance field framework by representing scenes with time-aware voxel features, named as TiNeuVox. A tiny coordinate deformation network is introduced to model coarse motion trajectories and temporal information is further enhanced in the radiance network. A multi-distance interpolation method is proposed and applied on voxel features to model both small and large motions. Our framework significantly accelerates the optimization of dynamic radiance fields while maintaining high rendering quality. Empirical evaluation is performed on both synthetic and real scenes. Our TiNeuVox completes training with only <b>8 minutes</b> and <b>8-MB</b> storage cost while showing similar or even better rendering performance than previous dynamic NeRF methods.
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="text-center">
+          <div style="position:relative;padding-top:56.25%;">
+              <iframe src="https://www.youtube.com/embed/sROLfK_VkCk" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="container has-text-centered">
+      <h2 class="title is-3">Results on 360° Synthetic Scenes</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="jumpingjacks" autoplay muted loop playsinline height="100%">
+              <source src="./img/jumpingjacks_t_d.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="mutant" autoplay muted loop playsinline height="100%">
+              <source src="./img/mutant_td.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="lego" autoplay muted loop playsinline height="100%">
+              <source src="./img/lego_td.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="standup" autoplay muted loop playsinline height="100%">
+              <source src="./img/standup_t_d.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="hell" autoplay muted loop playsinline height="100%">
+              <source src="./img/hell_td.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="hook" autoplay muted loop playsinline height="100%">
+              <source src="./img/hook_td.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="trex" autoplay muted loop playsinline height="100%">
+              <source src="./img/trex_td.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="balls" autoplay muted loop playsinline height="100%">
+              <source src="./img/bouncingballs_t_d.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <p>
+            These videos are synthesized with novel time and view with sparse time-view images as input.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
+        <source src="./img/ball_decomp.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <p>
+        The synthesis process can be decomposed with time and view direction separately.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h2 class="title is-3">Results on Real Scenes</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="chicken" autoplay controls muted loop playsinline height="100%">
+              <source src="./img/chicken.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="printer" autoplay controls muted loop playsinline height="100%">
+              <source src="./img/printer.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="americano" autoplay controls muted loop playsinline height="100%">
+              <source src="./img/americano.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <div>
+          <div class="results-item">
+            <video poster="" id="cookie" autoplay controls muted loop playsinline height="100%">
+              <source src="./img/cookie.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <p>
+            These videos are synthesized with novel time and view, taken sparse time-view images as input. Right is the depth map.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <pre><code>@article{tineuvox,
+title={Fast Dynamic Radiance Fields with Time-Aware Neural Voxels},
+author={Jiemin Fang and Taoran Yi and Xinggang Wang and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Matthias Nie{\ss}ner and Qi Tian},
+journal={arxiv:2205.15285},
+year={2022}
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    The authors would like to thank <a href="https://www.3dunderstanding.org/">Prof. Angela Dai</a> for her voice recorded in the presentation video and <a href="https://lsongx.github.io/">Liangchen Song</a> for his valuable comments and discussions.
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2205.15285">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/hustvl/TiNeuVox" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website template was borrowed from <a href="https://nerfies.github.io/">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
