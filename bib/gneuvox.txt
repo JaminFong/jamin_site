@@ -1,0 +1,6 @@
+@article{yi2023generalizable,
+  title={Generalizable Neural Voxels for Fast Human Radiance Fields},
+  author={Yi, Taoran and Fang, Jiemin and Wang, Xinggang and Liu, Wenyu},
+  journal={arXiv:2303.15387},
+  year={2023}
+}
