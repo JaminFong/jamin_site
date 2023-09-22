@@ -1,6 +1,8 @@
-@article{fang2019eat,
-  title={EAT-NAS: elastic architecture transfer for accelerating large-scale neural architecture search},
+@article{fang2021eat,
+  title={EAT-NAS: Elastic architecture transfer for accelerating large-scale neural architecture search},
   author={Fang, Jiemin and Chen, Yukang and Zhang, Xinbang and Zhang, Qian and Huang, Chang and Meng, Gaofeng and Liu, Wenyu and Wang, Xinggang},
-  journal={arXiv:1901.05884},
-  year={2019}
+  journal={Science China Information Sciences},
+  volume={64},
+  pages={1--13},
+  year={2021},
 }
