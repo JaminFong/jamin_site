@@ -1,8 +1,10 @@
 .md-grid {
-    max-width: 1750px;
+    max-width: 1200px;
   }
 
-.container {
+.wrapper {
   display: grid;
-  grid-template-columns: 185px auto-fill;
+  grid-template-columns: 185px auto;
+  align-items: center;
+  column-gap: 15px;
 }
