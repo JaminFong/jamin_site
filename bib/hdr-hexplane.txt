@@ -1,0 +1,6 @@
+@inproceedings{hdrHexplane,
+      title={Fast High Dynamic Range Radiance Fields for Dynamic Scenes}, 
+      author={Guanjun Wu and Taoran Yi and Jiemin Fang and Wenyu Liu and Xinggang Wang},
+      booktitle={3DV},
+      year={2024}
+}
