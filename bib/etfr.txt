@@ -1,6 +1,6 @@
 @ARTICLE{etfr,
   author={Wang, Cheng and Fang, Yuxin and Fang, Jiemin and Guo, Peng and Wu, Rui and Huang, He and Wang, Xinggang and Huang, Chang and Liu, Wenyu},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   title={Efficient Task-specific Feature Re-fusion for More Accurate Object Detection and Instance Segmentation}, 
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
   year={2023}
 }

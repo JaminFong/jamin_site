@@ -1,0 +1,6 @@
+@article{ifnas,
+  title={Exploring Complicated Search Spaces with Interleaving-Free Sampling},
+  author={Tian, Yunjie and Xie, Lingxi and Fang, Jiemin and Jiao, Jianbin and Ye, Qixiang and Tian, Qi},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024}
+}
