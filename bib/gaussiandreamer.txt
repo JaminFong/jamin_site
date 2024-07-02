@@ -1,6 +1,6 @@
-@article{GaussianDreamer,
-    title={GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors},
-    author={Taoran Yi and Jiemin Fang and Guanjun Wu and Lingxi Xie and Xiaopeng Zhang and Wenyu Liu and Qi Tian and Xinggang Wang},
-    journal={arxiv:2310.08529},
-    year={2023}
+@inproceedings{gaussiandreamer,
+  title={Gaussiandreamer: Fast generation from text to 3d gaussians by bridging 2d and 3d diffusion models},
+  author={Yi, Taoran and Fang, Jiemin and Wang, Junjie and Wu, Guanjun and Xie, Lingxi and Zhang, Xiaopeng and Liu, Wenyu and Tian, Qi and Wang, Xinggang},
+  booktitle={CVPR},
+  year={2024}
 }

@@ -1,6 +1,6 @@
-@article{GaussianEditor,
-    author = {Fang, Jiemin and Wang, Junjie and Zhang, Xiaopeng and Xie, Lingxi and Tian, Qi},
-    title = {GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions},
-    year = {2023},
-    journal={arXiv preprint arXiv:2311.16037}
+@inproceedings{wang2024gaussianeditor,
+  title={Gaussianeditor: Editing 3d gaussians delicately with text instructions},
+  author={Wang, Junjie and Fang, Jiemin and Zhang, Xiaopeng and Xie, Lingxi and Tian, Qi},
+  booktitle={CVPR},
+  year={2024}
 }

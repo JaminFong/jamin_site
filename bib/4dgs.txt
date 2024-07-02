@@ -1,6 +1,6 @@
-@article{wu20234dgaussians,
-      title={4D Gaussian Splatting for Real-Time Dynamic Scene Rendering},
-      author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Xie, Lingxi and Zhang, Xiaopeng and Wei Wei and Liu, Wenyu and Tian, Qi and Wang Xinggang},
-      journal={arXiv preprint arXiv:2310.08528},
-      year={2023}
+@inproceedings{4dgs,
+  title={4d gaussian splatting for real-time dynamic scene rendering},
+  author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Xie, Lingxi and Zhang, Xiaopeng and Wei, Wei and Liu, Wenyu and Tian, Qi and Wang, Xinggang},
+  booktitle={CVPR},
+  year={2024}
 }
