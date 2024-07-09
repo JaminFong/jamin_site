@@ -1,0 +1,6 @@
+@article{sa4d,
+    title={Segment Any 4D Gaussians}, 
+    author={Shengxiang Ji and Guanjun Wu and Jiemin Fang and Jiazhong Cen and Taoran Yi and Wenyu Liu and Qi Tian and Xinggang Wang},
+    journal={arXiv:2407.04504},
+    year={2024},
+}
