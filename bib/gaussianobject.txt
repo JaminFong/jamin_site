@@ -1,0 +1,7 @@
+@article{gaussianobject,
+  title   = {GaussianObject: High-Quality 3D Object Reconstruction from Four Views with Gaussian Splatting},
+  author  = {Chen Yang and Sikuang Li and Jiemin Fang and Ruofan Liang and
+             Lingxi Xie and Xiaopeng Zhang and Wei Shen and Qi Tian},
+  journal = {ACM Transactions on Graphics},
+  year    = {2024}
+}
