@@ -1,6 +1,6 @@
-@article{cen2023saga,
+@inproceedings{cen2023saga,
       title={Segment Any 3D Gaussians}, 
       author={Jiazhong Cen and Jiemin Fang and Chen Yang and Lingxi Xie and Xiaopeng Zhang and Wei Shen and Qi Tian},
-      year={2023},
-      journal={arXiv preprint arXiv:2312.00860},
+      year={2025},
+      booktitle={AAAI}
 }
