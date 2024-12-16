@@ -1,0 +1,6 @@
+@article{chen2024liftimage3d,
+  title={LiftImage3D: Lifting Any Single Image to 3D Gaussians with Video Generation Priors},
+  author={Chen, Yabo and Yang, Chen and Fang, Jiemin and Zhang, Xiaopeng and Xie, Lingxi and Shen, Wei and Dai, Wenrui and Xiong, Hongkai and Tian, Qi},
+  journal={arXiv preprint arXiv:2412.09597},
+  year={2024}
+}
