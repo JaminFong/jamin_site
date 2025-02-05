@@ -1,0 +1,8 @@
+@article{beyondmasking,
+title = {Beyond masking: Demystifying token-based pre-training for vision transformers},
+journal = {Pattern Recognition},
+volume = {162},
+pages = {111386},
+year = {2025},
+author = {Yunjie Tian and Lingxi Xie and Jiemin Fang and Jianbin Jiao and Qi Tian},
+}
