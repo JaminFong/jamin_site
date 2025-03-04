@@ -1,0 +1,6 @@
+@article{sa3d,
+  title={Segment anything in 3d with radiance fields},
+  author={Cen, Jiazhong and Fang, Jiemin and Zhou, Zanwei and Yang, Chen and Xie, Lingxi and Zhang, Xiaopeng and Shen, Wei and Tian, Qi},
+  journal={IJCV},
+  year={2025}
+}
