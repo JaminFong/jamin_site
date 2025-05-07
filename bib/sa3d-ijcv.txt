@@ -1,6 +1,8 @@
-@article{sa3d,
+@article{sa3d-ijcv,
   title={Segment anything in 3d with radiance fields},
   author={Cen, Jiazhong and Fang, Jiemin and Zhou, Zanwei and Yang, Chen and Xie, Lingxi and Zhang, Xiaopeng and Shen, Wei and Tian, Qi},
-  journal={IJCV},
-  year={2025}
+  journal={International Journal of Computer Vision},
+  pages={1--23},
+  year={2025},
+  publisher={Springer}
 }
