@@ -1,0 +1,6 @@
+@article{snapsnap,
+    title={Snap-Snap: Taking Two Images to Reconstruct 3D Human Gaussians in Milliseconds},
+    author={Jia Lu and Taoran Yi and Jiemin Fang and Chen Yang and Chuiyun Wu and Wei Shen and Wenyu Liu and Qi Tian and Xinggang Wang},
+    journal={arxiv:2508.14892},
+    year={2025}
+    }

@@ -1,0 +1,6 @@
+@article{hu2025dereflection,
+  title={Dereflection Any Image with Diffusion Priors and Diversified Data},
+  author={Hu, Jichen and Yang, Chen and Zhou, Zanwei and Fang, Jiemin and Yang, Xiaokang and Tian, Qi and Shen, Wei},
+  journal={arXiv preprint arXiv:2503.17347},
+  year={2025}
+}
