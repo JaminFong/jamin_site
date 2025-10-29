@@ -1,0 +1,6 @@
+@article{worldgrow2025,
+  title   = {WorldGrow: Generating Infinite 3D World},
+  author  = {Li, Sikuang and Yang, Chen and Fang, Jiemin and Yi, Taoran and Lu, Jia and Cen, Jiazhong and Xie, Lingxi and Shen, Wei and Tian, Qi},
+  journal = {arXiv preprint arXiv:2510.21682},
+  year    = {2025}
+}
