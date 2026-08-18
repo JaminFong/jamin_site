@@ -8,3 +8,45 @@
   align-items: center;
   column-gap: 15px;
 }
+
+/* News: visibility count is set via data-news-visible in docs/index.md */
+.news-section ul {
+  margin-bottom: 0;
+}
+
+.news-section > p:has(.news-toggle) {
+  margin: 0.35em 0 0;
+  padding-left: 1.1em;
+}
+
+.news-expand-input {
+  display: none;
+}
+
+.news-toggle {
+  display: inline;
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.news-toggle:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.news-toggle-less {
+  display: none;
+}
+
+.news-expand-input:checked ~ .news-toggle .news-toggle-more {
+  display: none;
+}
+
+.news-expand-input:checked ~ .news-toggle .news-toggle-less {
+  display: inline;
+}

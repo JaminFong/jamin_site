@@ -1,0 +1,9 @@
+@misc{sculpt2026,
+  title={SCULPT: Subtractive Composition for 3D Part Generation},
+  author={Li, Sikuang and Yang, Chen and Fang, Jiemin and Cen, Jiazhong and Wei, Yuhe and Pang, Jichen and Shen, Wei and Tian, Qi},
+  year={2026},
+  eprint={2608.13541},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2608.13541}
+}

@@ -408,6 +408,8 @@ We are hiring! If you are interested in intern/full-time positions of my group o
 <!-- **Email**: <img align="center" src=img/mail.png alt="mail" title="mail" width="222"/>    -->
 
 <h2 id="news"><strong>News</strong><a class="headerlink" href="#news" title="Permanent link">&para;</a></h2>
+<!-- Default visible news count: change data-news-visible below -->
+<div class="news-section" data-news-visible="10">
 <ul>
 <li><em>Jun. 2026</em> - I am appointed as Associate Editor for the journal <a href="https://www.sciencedirect.com/journal/image-and-vision-computing">Image and Vision Computing</a>!</li>
 <li><em>Feb. 2026</em> - I am honored to receive the <a href="https://www.caai.cn/site/content/5525.html">CAAI Outstanding Doctoral Dissertation Award</a>!</li>
@@ -433,10 +435,23 @@ We are hiring! If you are interested in intern/full-time positions of my group o
 <li><em>Dec. 2020</em> - "<a href="https://doi.org/10.1109/tpami.2020.3044416">FNA++: Fast Network Adaptation via Parameter Remapping and Architecture Search</a>" is published in IEEE TPAMI.</li>
 <li><em>Nov. 2020</em> - I have released a PyTorch toolkit <a href="https://github.com/JaminFong/dali-pytorch">dali-pytorch</a> for accelerating ImageNet training with NVIDIA DALI. It improves the training speed dramatically with maintaining high performance.</li>
 </ul>
+<p><input type="checkbox" id="news-expand" class="news-expand-input">
+<label for="news-expand" class="news-toggle">
+<span class="news-toggle-more">Show older news</span>
+<span class="news-toggle-less">Show less</span>
+</label></p>
+</div>
 <h2 id="publications"><strong>Publications</strong><a class="headerlink" href="#publications" title="Permanent link">&para;</a></h2>
 <p>*<em>equal contributions.</em>  &nbsp;  <sup>†</sup><em>project lead.</em>  &nbsp;  <sup>✉</sup><em>corresponding author.</em></p>
 <h3 id="preprints"><strong>Preprints</strong><a class="headerlink" href="#preprints" title="Permanent link">&para;</a></h3>
 <div class="wrapper">
+<video autoplay="autoplay" height="100%" loop="loop" muted="muted" width="100%">
+    <source src="paper_fig/sculpt.mp4" type="video/mp4">
+</video>
+<p><strong>SCULPT: Subtractive Composition for 3D Part Generation</strong><br />
+Sikuang Li*, Chen Yang*, <strong>Jiemin Fang</strong><sup>✉†</sup>, Jiazhong Cen, Yuhe Wei, Jichen Pang, Wei Shen<sup>✉</sup>, Qi Tian<sup>✉</sup> <br />
+arXiv:2608.13541, 2026 <br />
+<a href="https://arxiv.org/abs/2608.13541">PDF</a> | <a href="https://github.com/sculpt-part/SCULPT">Code</a> | <a href="https://sculpt-part.github.io/">Project Page</a> | <a href="bib/sculpt.txt">BibTeX</a></p>
 <video autoplay="autoplay" height="100%" loop="loop" muted="muted" width="100%">
     <source src="paper_fig/liftimage3d.mp4" type="video/mp4">
 </video>
@@ -625,12 +640,12 @@ Computational Visual Media (<strong>CVMJ</strong>) <strong>2023</strong>  <br />
     <source src="paper_fig/snap-snap.mov" type="video/mp4">
 </video>
 <p><strong>Snap-Snap: Taking Two Images to Reconstruct 3D Human Gaussians in Milliseconds</strong><br />
-Jia Lu*, Taoran Yi*, Jiemin Fang<sup>✉</sup>, Chen Yang, Chuiyun Wu, Wei Shen, Wenyu Liu, Qi Tian, Xinggang Wang<sup>✉</sup> <br />
+Jia Lu*, Taoran Yi*, <strong>Jiemin Fang</strong><sup>✉</sup>, Chen Yang, Chuiyun Wu, Wei Shen, Wenyu Liu, Qi Tian, Xinggang Wang<sup>✉</sup> <br />
 IEEE Transactions on Circuits and Systems for Video Technology, 2025 <br />
 <a href="https://ieeexplore.ieee.org/document/11573185">PDF</a> | <a href="https://github.com/hustvl/Snap-Snap">Code</a> | <a href="https://hustvl.github.io/Snap-Snap/">Project Page</a> | <a href="bib/snap-snap.txt">BibTeX</a>   </p>
 <p><img align="left" src=paper_fig/beyond_mask.png width="185"/></p>
 <p><strong>Beyond Masking: Demystifying Token-Based Pre-Training for Vision Transformers</strong> <br />
-Yunjie Tian, Lingxi Xie, Jiemin Fang, Jianbin Jiao, Qi Tian <br />
+Yunjie Tian, Lingxi Xie, <strong>Jiemin Fang</strong>, Jianbin Jiao, Qi Tian <br />
 Pattern Recognition (<strong>PR</strong>) <strong>2025</strong> <br />
 <a href="https://doi.org/10.1016/j.patcog.2025.111386">PDF</a> | <a href="https://github.com/sunsmarterjie/beyond_masking">Code</a> | <a href="bib/beyond-mask.txt">BibTeX</a></p>
 <p><img align="left" src=paper_fig/if-nas.png width="185"/></p>
@@ -765,6 +780,8 @@ IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</s
     
     
       <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="javascripts/news.js"></script>
       
     
   </body>
