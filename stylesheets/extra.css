@@ -2,6 +2,18 @@
     max-width: 1200px;
   }
 
+/* Chinese fallback: 楷体. Must beat Material's -apple-system / PingFang stack. */
+.md-typeset,
+.md-nav,
+.md-header,
+.md-footer {
+  font-family: "PT Sans", KaiTi, STKaiti, "ST Kaiti", "Kaiti SC", sans-serif;
+}
+
+.md-typeset h1 {
+  font-family: "Times New Roman", KaiTi, STKaiti, "ST Kaiti", "Kaiti SC", serif;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 185px auto;
