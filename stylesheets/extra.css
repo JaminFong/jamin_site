@@ -62,3 +62,46 @@
 .news-expand-input:checked ~ .news-toggle .news-toggle-less {
   display: inline;
 }
+
+/* CSS fallback: hide older news when collapsed (matches data-news-visible="10") */
+.news-section:has(.news-expand-input:not(:checked)) > ul > li:nth-child(n + 11) {
+  display: none;
+}
+
+/* Preprints: collapse older entries */
+.preprint-older-details {
+  margin-top: 0.35em;
+}
+
+.preprint-older-details > summary {
+  cursor: pointer;
+  opacity: 0.65;
+  list-style: none;
+  padding-left: 1.1em;
+}
+
+.preprint-older-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.preprint-older-details > summary:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.preprint-toggle-less {
+  display: none;
+}
+
+.preprint-older-details[open] > summary .preprint-toggle-more {
+  display: none;
+}
+
+.preprint-older-details[open] > summary .preprint-toggle-less {
+  display: inline;
+}
+
+.preprint-older-details > .wrapper {
+  margin-top: 0.75em;
+}
