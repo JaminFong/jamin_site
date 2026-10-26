@@ -69,22 +69,26 @@
 }
 
 /* Preprints: collapse older entries */
-.preprint-older-details {
-  margin-top: 0.35em;
-}
-
-.preprint-older-details > summary {
-  cursor: pointer;
-  opacity: 0.65;
-  list-style: none;
+.preprint-section > p:has(.preprint-toggle) {
+  margin: 0.35em 0 0;
   padding-left: 1.1em;
 }
 
-.preprint-older-details > summary::-webkit-details-marker {
+.preprint-expand-input {
   display: none;
 }
 
-.preprint-older-details > summary:hover {
+.preprint-toggle {
+  display: inline;
+  font: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.preprint-toggle:hover {
   opacity: 1;
   text-decoration: underline;
   text-underline-offset: 0.15em;
@@ -94,14 +98,18 @@
   display: none;
 }
 
-.preprint-older-details[open] > summary .preprint-toggle-more {
+.preprint-expand-input:checked ~ .preprint-toggle .preprint-toggle-more {
   display: none;
 }
 
-.preprint-older-details[open] > summary .preprint-toggle-less {
+.preprint-expand-input:checked ~ .preprint-toggle .preprint-toggle-less {
   display: inline;
 }
 
-.preprint-older-details > .wrapper {
+.preprint-section:has(.preprint-expand-input:not(:checked)) > .preprint-older {
+  display: none;
+}
+
+.preprint-older {
   margin-top: 0.75em;
 }
