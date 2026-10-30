@@ -1,0 +1,6 @@
+@article{physag3d,
+  title   = {{PhysAg3D}: Bridging 3D Generative and Agentic Models for High-Fidelity and Physically-Interactive Assets},
+  author  = {Du, Bi'an and Meng, Fanpeng and Fang, Jiemin and Yang, Chen and Li, Pufan and Liu, Daizong and Tian, Qi and Hu, Wei},
+  journal = {arXiv preprint arXiv:2610.39924},
+  year    = {2026}
+}
