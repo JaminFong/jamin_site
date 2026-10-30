@@ -1,0 +1,6 @@
+@article{gate3dgen,
+  title   = {{Gate3DGen}: A Pre-processing Model that Selectively Purifies Real-World Images for 3D Generation},
+  author  = {Li, Xiaolin and Huang, Zihao and Meng, Fanpeng and Yang, Chen and Wu, Guanjun and Zhang, Kai and Fang, Jiemin and Tian, Qi},
+  journal = {arXiv preprint arXiv:2610.31649},
+  year    = {2026}
+}

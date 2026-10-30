@@ -21,6 +21,10 @@
   column-gap: 15px;
 }
 
+.wrapper sup {
+  white-space: nowrap;
+}
+
 /* News: visibility count is set via data-news-visible in docs/index.md */
 .news-section ul {
   margin-bottom: 0;
@@ -112,4 +116,30 @@
 
 .preprint-older {
   margin-top: 0.75em;
+}
+
+/* Social icon links under bio */
+.social-links p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.05rem;
+  margin: 0.6em 0 0;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.social-links .twemoji {
+  height: 1.05rem;
+  width: 1.05rem;
+}
+
+.social-links .twemoji svg {
+  height: 1.05rem;
+  width: 1.05rem;
+  fill: currentColor;
 }
